@@ -1,0 +1,13 @@
+.Прямоугольник_5 {
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( 0deg, rgb(248,210,209) 0%, rgb(248,210,209) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(248,210,209) 0%, rgb(248,210,209) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(248,210,209) 0%, rgb(248,210,209) 100%);
+  opacity: 0.302;
+  position: absolute;
+  left: 180px;
+  top: 904px;
+  width: 1140px;
+  height: 10px;
+  z-index: 75;
+}
