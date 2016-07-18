@@ -1,17 +1,29 @@
 /* search */
 #search {
-    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 24px;
 }
 #search .input-lg {
+    display: none;
     height: 40px;
     line-height: 20px;
     padding: 0 10px;
 }
 #search .btn-lg {
-    background: transparent;
+    width: 24px;
+    height: 24px;
+    background: url("../image/icon-search.png") no-repeat center;
     border: none;
     font-size: 15px;
     line-height: 18px;
     padding: 10px 0;
     text-shadow: none;
+
+    &:focus{
+        outline: none;
+    }
 }

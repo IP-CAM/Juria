@@ -1,18 +1,18 @@
 /* category-menu */
 
 .category-menu {
-    margin-bottom: 50px;
+
 }
 
 .category-menu__item {
     position: relative;
     //margin-bottom: 50px;
     border-radius: 3px;
-    opacity: .7;
+    opacity: 1;
 }
 
 .category-menu__item:hover {
-    opacity: 1;
+    opacity: .7;
 }
 
 .category-menu__link {

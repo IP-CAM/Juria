@@ -1,6 +1,48 @@
 /* header */
 
-header{
+header {
     background: url("../image/mocaic.png");
     margin-bottom: 50px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.header-phones--more-info {
+    background: #fef7f2;
+    padding-top: 20px;
+}
+
+.header-phones {
+    padding-left: 0;
+    list-style: none;
+    column-count: 2;
+
+    & > li {
+        font-family: 'Play', sans-serif;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}
+
+.more-info {
+    font-family: 'Play', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.call-back,
+.cooperation-link {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #f4746c;
+    border-bottom: 1px solid #f4746c;
+
+    &:hover{
+        color: #f4746c;
+        border-color: transparent;
+    }
 }

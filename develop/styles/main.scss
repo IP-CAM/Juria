@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #666;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     width: 100%;
 }
@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Override the bootstrap defaults */
 h1 {
-    font-size: 33px;
+    margin-top: 55px;
+    font-size: 30px;
 }
 
 h2 {
@@ -52,6 +53,11 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+a:focus,
+button:focus {
+    outline: none;
 }
 
 legend {
@@ -92,16 +98,20 @@ div.required .control-label:before {
     font-weight: bold;
 }
 
-.owl-carousel{
+.owl-carousel {
     margin-bottom: 30px;
 }
 
-.owl-wrapper-outer{
+.owl-wrapper-outer {
     border: none;
     border-radius: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+
+.btn-dark {
+    background: #4b4842;
 }
 
 @import "layout/drop-down-menus.scss";
@@ -114,8 +124,14 @@ div.required .control-label:before {
 @import "layout/cart.scss";
 @import "layout/product_list.scss";
 @import "layout/content.scss";
+@import "layout/prices.scss";
+@import "layout/advantages.scss";
+@import "layout/article.scss";
+@import "layout/certificate.scss";
 
 @import "layout/404.scss";
+
+@import "layout/maps.scss";
 @import "layout/footer.scss";
 
 /* responsive */

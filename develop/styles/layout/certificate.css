@@ -1,0 +1,12 @@
+/* certificate */
+.all-certificate {
+  display: block;
+  background: #4b4842;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff; }
+  .all-certificate:hover {
+    color: #ccc; }
+
+/*# sourceMappingURL=certificate.css.map */

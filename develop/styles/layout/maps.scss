@@ -1,0 +1,43 @@
+/* maps */
+
+.maps__img {
+    margin-bottom: 30px;
+}
+
+.maps__place {
+    margin-bottom: 60px;
+}
+
+.maps__place__title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.maps__place__title,
+.maps__place__desc {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.maps__place__desc {
+    margin-bottom: 40px;
+}
+
+.call-back-form {
+    position: relative;
+    background: url("../image/icon-call-back-form.png") no-repeat 30px center #fef9f5;
+    min-height: 125px;
+}
+
+.call-back-form__link{
+    display: block;
+    padding: 40px 30px 40px 92px;
+
+    & strong{
+        display: block;
+        font-size: 18px;
+        color: #f4746d;
+        text-transform: uppercase;
+    }
+}

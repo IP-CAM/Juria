@@ -1,28 +1,28 @@
-<footer>
+<footer class="footer" id="footer">
     <div class="container">
         <div class="row">
             <!-- logo -->
             <div class="col-sm-8">
-                <div id="logo">
+                <div class="logo">
                     <a href="/">
                         <img src="http://open2.dev/image/catalog/logo.png" title="<?php echo $name; ?>"
                              alt="<?php echo $name; ?>" class="img-responsive"/>
                     </a>
                 </div>
 
-                <p class="">Магазин женского белья Juria © 2010-2016. <br/>
+                <p class="all-rights">Магазин женского белья Juria © 2010-2016. <br/>
                     Все права защищены</p>
 
-                <p class="copy">Разработка и продвижение
+                <p class="copy">Разработка и продвижение <br />
                     <a href="http://www.snegiri-media.ru/">Snegiri Media</a> - <a href="http://adlers.ua">Adlers</a>
                 </p>
             </div>
 
             <!-- category -->
             <div class="col-sm-4">
-                <p class="">Каталог товаров</p>
+                <p class="footer__category-lst__title">Каталог товаров</p>
 
-                <ul class="">
+                <ul class="footer__category-lst">
                     <li><a href="">БЮСТГАЛЬТЕР</a></li>
                     <li><a href="">РАЗНОЕ</a></li>
                     <li><a href="">СТРИНГИ</a></li>
@@ -35,9 +35,9 @@
 
             <!-- Navigation -->
             <div class="col-sm-12">
-                <p class="">НАВИГАЦИЯ</p>
+                <p class="footer__menu-lst__title">НАВИГАЦИЯ</p>
 
-                <ul class="">
+                <ul class="footer__menu-lst">
                     <li class="">
                         <a href="">Контакты</a>
                     </li>
@@ -104,6 +104,14 @@
         </div>
     </div>
 </footer>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
+
 
 <!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.

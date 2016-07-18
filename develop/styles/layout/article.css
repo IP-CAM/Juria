@@ -1,0 +1,17 @@
+/* article */
+article {
+  display: block; }
+
+/* articles */
+.article__title {
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: bold; }
+
+.article__desc {
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  line-height: 1.2; }
+
+/*# sourceMappingURL=article.css.map */

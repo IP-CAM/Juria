@@ -1,0 +1,29 @@
+/* advantages */
+
+.advantages {
+    background: url("../image/hd_peach.jpg") center;
+}
+
+.advantages__item {
+    padding: 60px 20px 60px 90px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.advantages__item--like {
+    background-image: url("../image/icon-like.png");
+}
+
+.advantages__item--compass {
+    background-image: url("../image/icon-compas.png");
+}
+
+.advantages__item--monefy {
+    background-image: url("../image/icon-monefy.png");
+}
+
+.advantages__desc{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+}

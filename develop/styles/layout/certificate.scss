@@ -1,0 +1,42 @@
+/* certificate */
+
+.sertificates{
+    background: #fefaf8;
+    padding: 30px 0;
+}
+
+.certificate__item{
+    position: relative;
+    margin-top: 20px;
+
+    &::after{
+        display: none;
+        content: '';
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: url("../image/icon-certificate.png") #f4746d no-repeat center center;
+        border-radius: 5px;
+    }
+
+    &:hover::after{
+        display: block;
+    }
+}
+
+.all-certificate{
+    display: block;
+    background: #4b4842;
+    margin: 40px auto 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover{
+        color: #ccc;
+    }
+}
