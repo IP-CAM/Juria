@@ -1,6 +1,6 @@
 /* maps */
 
-.maps__img {
+.maps {
     margin-bottom: 30px;
 }
 
@@ -40,4 +40,31 @@
         color: #f4746d;
         text-transform: uppercase;
     }
+
+    &:hover,
+    &:focus{
+        strong{
+            color: #f4746d;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
+
+.ymaps-2-1-41-svg-icon {
+    background-image: url("../image/ymaps-2-1-41-svg-icon.png") !important;
+    background-size: 24px 32px !important;
+    background-repeat: no-repeat;
+}
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+.ymaps-layers-pane {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }

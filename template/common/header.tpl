@@ -50,24 +50,32 @@
 </head>
 <body class="<?php echo $class; ?>">
 
-
 <header>
     <nav id="top">
         <div class="container">
             <div class="row">
 
                 <!-- sub menu  -->
-                <div class="col-md-8">
+                <div class="col-xs-8">
 
                     <!-- menu -->
                     <ul class="list-inline">
-                        <li>
+                        <li class="sub-menu">
                             <a class="dropdown-toggle menu-hamburger" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false" href="#">
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Dropdown link</a></li>
-                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Как стать оптовым покупателем</a></li>
+                                <li><a href="#">Оптовые условия</a></li>
+                                <li><a href="#">Прайс: товары в начлии</a></li>
+                                <li><a href="#">Прайс: товары под заказ</a></li>
+                                <li><a href="#">Наш электроный каталог</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Материалы и фурнитура</a></li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Возврат товаров</a></li>
+                                <li><a href="#">Контакты</a></li>
                             </ul>
                         </li>
                         <li>
@@ -84,20 +92,22 @@
                 </div>
 
                 <!-- time working -->
-                <div class="col-md-8">
+                <div class="hidden-xs col-md-8">
                     <p class="time-working"><span>Режим работы:</span>
                         ПН-ПТ с 10 до 17 СБ, ВС с 11 до 16</p>
                 </div>
 
                 <!-- account -->
-                <div class="col-md-4">
+                <div class="col-xs-8 col-md-4">
                     <a class="account" href="<?php echo $account; ?>">
-                        <?php echo $text_account; ?>
+                         <span class="hidden-xs">
+                             <?php echo $text_account; ?>
+                         </span>
                     </a>
                 </div>
 
                 <!-- cart -->
-                <div class="col-md-4 cart">
+                <div class="col-xs-8 col-md-4 cart">
                     <?php echo $cart; ?>
                 </div>
             </div>
@@ -109,9 +119,12 @@
     <?php if ($categories) { ?>
     <nav id="menu" class="navbar">
         <div class="container">
-            <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+            <div class="navbar-header">
                 <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+                        data-target=".navbar-ex1-collapse">
+                    <span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -147,92 +160,106 @@
     <!-- end category menu -->
 
     <!-- logo & phones -->
-    <div class="container">
-        <div class="row">
+    <div id="header-bottom">
+        <div class="container">
+            <div class="row">
 
-            <!-- logo -->
-            <div class="col-sm-8">
-                <div id="logo">
-                    <?php if ($logo) { ?>
-                    <a href="/"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
-                                     alt="<?php echo $name; ?>" class="img-responsive"/></a>
-                    <?php } else { ?>
-                    <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-                    <?php } ?>
-                </div>
-            </div>
-
-            <!-- phones -->
-            <div class="col-md-16 header-phones--more-info">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="header-phones">
-                            <li class="">+7 (956) 236-76-02</li>
-                            <li class="">+7 (826) 345-76-55</li>
-                            <li class="">+7 (126) 879-45-33</li>
-                            <li class="">+7 (970) 243-67-87</li>
-                        </ul>
-
-                        <!-- Button trigger modal -->
-                        <a class="call-back" href="#" data-toggle="modal" data-target="#callBackModal">
-                            Заказать обратный звонок
+                <!-- logo -->
+                <div class="col-sm-8">
+                    <div class="logo" id="logo">
+                        <?php if ($logo) { ?>
+                        <a href="/">
+                            <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
+                                 alt="<?php echo $name; ?>" class="img-responsive"/>
+                        <span>Оптовый интернет-магазин <br/>
+                        женского белья Juria</span>
                         </a>
+                        <?php } else { ?>
+                        <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+                        <?php } ?>
+                    </div>
+                </div>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="callBackModal" tabindex="-1" role="dialog"
-                             aria-labelledby="callBackModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                                aria-label="Close"><span
-                                                    aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="callBackModalLabel">Обратный звонок</h4>
+                <!-- phones -->
+                <div class="col-md-16 header-phones--more-info">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="header-phones">
+                                <li class="">+7 (956) 236-76-02</li>
+                                <li class="">+7 (826) 345-76-55</li>
+                                <li class="">+7 (126) 879-45-33</li>
+                                <li class="">+7 (970) 243-67-87</li>
+                            </ul>
 
-                                        <p>Вы можете сделать заказ или получить консультацию
-                                            по телефону. Просто оставьте свой номер и мы свяжемся
-                                            с Вами в течении 10 минут.</p>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form class="form-horizontal">
-                                            <div class="form-group">
-                                                <label for="inputEmail3" class="col-sm-8 control-label">Email</label>
-                                                <div class="col-sm-10">
-                                                    <input type="email" class="form-control" id="inputEmail3"
-                                                           placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="inputPassword3"
-                                                       class="col-sm-8 control-label">Password</label>
-                                                <div class="col-sm-10">
-                                                    <input type="password" class="form-control" id="inputPassword3"
-                                                           placeholder="Password">
-                                                </div>
-                                            </div>
+                            <!-- Button trigger modal -->
+                            <a class="call-back" href="#" data-toggle="modal" data-target="#callBackModal">
+                                Заказать обратный звонок
+                            </a>
 
-                                            <div class="modal-footer">
+                            <!-- Modal -->
+                            <div class="modal fade" id="callBackModal" tabindex="-1" role="dialog"
+                                 aria-labelledby="callBackModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close"><span
+                                                        aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="callBackModalLabel">Обратный звонок</h4>
+
+                                            <p>Вы можете сделать заказ или получить консультацию
+                                                по телефону. Просто оставьте свой номер и мы свяжемся
+                                                с Вами в течении 10 минут.</p>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="form-horizontal">
                                                 <div class="form-group">
-                                                    <div class="col-sm-offset-4 col-sm-20">
-                                                        <button type="submit" class="btn btn-default">Sign in</button>
+                                                    <label for="inputName"
+                                                           class="col-sm-8 control-label">Ваше имя</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputName"
+                                                               name="name"
+                                                               placeholder=""
+                                                               pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']$"
+                                                               required="required">
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </form>
-                                    </div>
+                                                <div class="form-group">
+                                                    <label for="inputPhone"
+                                                           class="col-sm-8 control-label">номер телефона</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="tel" class="form-control" id="inputPhone"
+                                                               name="inputPhone"
+                                                               placeholder=""
+                                                               pattern="^([\+]+)*[0-9\x20\x28\x29\-]{7,20}$"
+                                                               required="required">
+                                                    </div>
+                                                </div>
 
+                                                <div class="modal-footer">
+                                                    <div class="form-group">
+                                                        <div class="col-sm-24">
+                                                            <button type="submit" class="btn btn-default">Перезвоните
+                                                                мне
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- more info -->
-                    <div class="col-md-12">
-                        <p class="more-info">Оптовые партии от 5 тыс. рублей самовывозом
-                            и от 25 тыс. - транспортными компаниями.
-                            Реализация и отсрочка платежа не возможна.</p>
+                        <!-- more info -->
+                        <div class="col-md-12">
+                            <p class="more-info">Оптовые партии от 5 тыс. рублей самовывозом
+                                и от 25 тыс. - транспортными компаниями.
+                                Реализация и отсрочка платежа не возможна.</p>
 
-                        <a href="#" class="cooperation-link">Условия сотрудничества</a>
+                            <a href="#" class="cooperation-link">Условия сотрудничества</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,5 +269,98 @@
 
 </header>
 
+<!-- breadcrumb -->
+<section class="breadcrumb-b">
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="http://oc.adlers.net.ua/">Главная</a></li>
+                <li><span>Доставка товара</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr/>
+</section>
 
 
+<div class="container">
+    <div class="row">
+        <div class="article-item col-xs-24">
+            <div class="row">
+
+                <!-- img article -->
+                <div class="col-sm-6">
+                    <a style="background-image: url('http://oc.adlers.net.ua/image/cache/catalog/juria/article-img-200x200.jpg')"
+                       href="http://oc.adlers.net.ua/interesno/stat3.html" class="pull-left">
+                    </a>
+                </div>
+
+                <!-- article title & decs -->
+                <div class="col-sm-18">
+                    <div class="caption">
+                        <h2><a href="http://oc.adlers.net.ua/interesno/stat3.html">Длинный заголовок для материала с
+                                датой
+                                публикации</a></h2>
+                        <p>Текст материала новости на тему белья и других женских вещичек три строки минимум. Текст
+                            материала новости на тему белья и других женских вещичек три строки минимум. Текст материала
+                            новости на тему белья и других женских вещичек три строки минимум. </p>
+                        <a class="btn more-info" href="http://oc.adlers.net.ua/interesno/stat3.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-item col-xs-24">
+            <div class="row">
+
+                <!-- img article -->
+                <div class="col-sm-6">
+                    <a style="background-image: url('http://oc.adlers.net.ua/image/cache/catalog/juria/article-img-200x200.jpg')"
+                       href="http://oc.adlers.net.ua/interesno/stat3.html" class="pull-left">
+                    </a>
+                </div>
+
+                <!-- article title & decs -->
+                <div class="col-sm-18">
+                    <div class="caption">
+                        <h2><a href="http://oc.adlers.net.ua/interesno/stat3.html">Длинный заголовок для материала с
+                                датой
+                                публикации</a></h2>
+                        <p>Текст материала новости на тему белья и других женских вещичек три строки минимум. Текст
+                            материала новости на тему белья и других женских вещичек три строки минимум. Текст материала
+                            новости на тему белья и других женских вещичек три строки минимум. </p>
+                        <a class="btn more-info" href="http://oc.adlers.net.ua/interesno/stat3.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- pagination -->
+
+<div class="row">
+    <div class="col-sm-24">
+        <nav class="paginator">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

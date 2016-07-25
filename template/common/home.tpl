@@ -102,69 +102,15 @@
             <!-- end prices -->
 
 
-            <!-- articles -->
-            <h3>Полезные статьи об ОПТОВОЙ ПРОДАЖЕ женского белья</h3>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="article__item">
-                        <a class="article__link" href="#">
-                            <img src="catalog/view/theme/Juria/image/article-img.jpg" alt="" class="article__img">
-
-                            <span class="article__title">Длинный заголовок для материала с датой публикации</span>
-                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
-                                три строки минимум</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="article__item">
-                        <a class="article__link" href="#">
-                            <img src="catalog/view/theme/Juria/image/article-img.jpg" alt="" class="article__img">
-
-                            <span class="article__title">Длинный заголовок для материала с датой публикации</span>
-                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
-                                три строки минимум</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="article__item">
-                        <a class="article__link" href="#">
-                            <img src="catalog/view/theme/Juria/image/article-img.jpg" alt="" class="article__img">
-
-                            <span class="article__title">Длинный заголовок для материала с датой публикации</span>
-                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
-                                три строки минимум</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="article__item">
-                        <a class="article__link" href="#">
-                            <img src="catalog/view/theme/Juria/image/article-img.jpg" alt="" class="article__img">
-
-                            <span class="article__title">Длинный заголовок для материала с датой публикации</span>
-                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
-                                три строки минимум</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-offset-9 col-sm-6 center">
-                    <a class="btn all-article" href="#">ВСЕ СТАТЬИ</a>
-                </div>
-            </div>
-            <!-- end articles -->
-
 
             <!-- google maps API -->
             <h3>Приглашаем посетить наши магазины в Москве</h3>
             <p class="line"></p>
 
-            <img class="maps__img" src="catalog/view/theme/Juria/image/maps.jpg" alt="">
-
+            <div class="maps">
+                <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=NFdVpC4IfCIRB1GTLo-I9heO99A1ZmFR&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+            </div>
 
             <div class="row">
                 <div class="col-sm-8">
@@ -248,6 +194,71 @@
         <?php echo $column_right; ?>
     </div>
 </div>
+
+
+<!-- articles -->
+<section class="home-article-lst">
+    <div class="container">
+        <h3>Полезные статьи об ОПТОВОЙ ПРОДАЖЕ женского белья</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="article__item">
+                    <a class="article__link" href="#">
+                        <img src="catalog/view/theme/Juria/image/article-img.jpg" alt=""
+                             class="article__img">
+
+                        <span class="article__title">Длинный заголовок для материала с датой публикации</span>
+                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
+                                три строки минимум</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="article__item">
+                    <a class="article__link" href="#">
+                        <img src="catalog/view/theme/Juria/image/article-img.jpg" alt=""
+                             class="article__img">
+
+                        <span class="article__title">Длинный заголовок для материала с датой публикации</span>
+                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
+                                три строки минимум</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="article__item">
+                    <a class="article__link" href="#">
+                        <img src="catalog/view/theme/Juria/image/article-img.jpg" alt=""
+                             class="article__img">
+
+                        <span class="article__title">Длинный заголовок для материала с датой публикации</span>
+                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
+                                три строки минимум</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="article__item">
+                    <a class="article__link" href="#">
+                        <img src="catalog/view/theme/Juria/image/article-img.jpg" alt=""
+                             class="article__img">
+
+                        <span class="article__title">Длинный заголовок для материала с датой публикации</span>
+                            <span class="article__desc">Текст материала новости на тему белья и других женских вещичек
+                                три строки минимум</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-offset-9 col-sm-6 center">
+                <a class="btn all-article" href="#">ВСЕ СТАТЬИ</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end articles -->
 
 
 <!-- certificates -->

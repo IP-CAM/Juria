@@ -2,36 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4879e3a9-c4f6-49c7-b250-cfd68644716b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/advantages.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/article.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/certificate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/maps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/prices.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/category-list.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/category-menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/content.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/header.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/menu.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/product_list.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juria_home_light_peach2.psd" afterPath="$PROJECT_DIR$/juria_home_light_peach2.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/breadcrumb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/styles/layout/pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/ico_search.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/advantages.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/article.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/certificate.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/develop/styles/layout/maps.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-account.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-certificate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-compas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-like.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-monefy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/icon-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheet/stylesheet__.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/hd_peach.jpg" afterPath="$PROJECT_DIR$/image/hd_peach.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/additional_files/SCC_block_header_line.txt" afterPath="$PROJECT_DIR$/additional_files/SCC_block_header_line.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/advantages.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/advantages.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/article.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/article.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/cart.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/cart.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/category-menu.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/category-menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/certificate.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/certificate.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/content.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/content.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/footer.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/header.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/logo.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/logo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/maps.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/maps.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/menu.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/prices.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/prices.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/product_list.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/product_list.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/search.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/search.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/top.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/top.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/main.css" afterPath="$PROJECT_DIR$/develop/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/main.css.map" afterPath="$PROJECT_DIR$/develop/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/main.scss" afterPath="$PROJECT_DIR$/develop/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/md.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/md.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/sm.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/sm.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/xs.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/xs.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheet/main.css" afterPath="$PROJECT_DIR$/stylesheet/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/account.tpl" afterPath="$PROJECT_DIR$/template/account/account.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/address_form.tpl" afterPath="$PROJECT_DIR$/template/account/address_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/address_list.tpl" afterPath="$PROJECT_DIR$/template/account/address_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/download.tpl" afterPath="$PROJECT_DIR$/template/account/download.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/edit.tpl" afterPath="$PROJECT_DIR$/template/account/edit.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/forgotten.tpl" afterPath="$PROJECT_DIR$/template/account/forgotten.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/login.tpl" afterPath="$PROJECT_DIR$/template/account/login.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/newsletter.tpl" afterPath="$PROJECT_DIR$/template/account/newsletter.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/order_info.tpl" afterPath="$PROJECT_DIR$/template/account/order_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/order_list.tpl" afterPath="$PROJECT_DIR$/template/account/order_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/password.tpl" afterPath="$PROJECT_DIR$/template/account/password.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/recurring_info.tpl" afterPath="$PROJECT_DIR$/template/account/recurring_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/recurring_list.tpl" afterPath="$PROJECT_DIR$/template/account/recurring_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/register.tpl" afterPath="$PROJECT_DIR$/template/account/register.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/return_form.tpl" afterPath="$PROJECT_DIR$/template/account/return_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/return_info.tpl" afterPath="$PROJECT_DIR$/template/account/return_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/return_list.tpl" afterPath="$PROJECT_DIR$/template/account/return_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/reward.tpl" afterPath="$PROJECT_DIR$/template/account/reward.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/transaction.tpl" afterPath="$PROJECT_DIR$/template/account/transaction.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/voucher.tpl" afterPath="$PROJECT_DIR$/template/account/voucher.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/account/wishlist.tpl" afterPath="$PROJECT_DIR$/template/account/wishlist.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/cart.tpl" afterPath="$PROJECT_DIR$/template/common/cart.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/column_left.tpl" afterPath="$PROJECT_DIR$/template/common/column_left.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/column_right.tpl" afterPath="$PROJECT_DIR$/template/common/column_right.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/footer.tpl" afterPath="$PROJECT_DIR$/template/common/footer.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/header.tpl" afterPath="$PROJECT_DIR$/template/common/header.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/home.tpl" afterPath="$PROJECT_DIR$/template/common/home.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/search.tpl" afterPath="$PROJECT_DIR$/template/common/search.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/common/success.tpl" afterPath="$PROJECT_DIR$/template/common/success.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/information/information.tpl" afterPath="$PROJECT_DIR$/template/information/information.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/information/sitemap.tpl" afterPath="$PROJECT_DIR$/template/information/sitemap.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/account.tpl" afterPath="$PROJECT_DIR$/template/module/account.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/bestseller.tpl" afterPath="$PROJECT_DIR$/template/module/bestseller.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/featured.tpl" afterPath="$PROJECT_DIR$/template/module/featured.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/latest.tpl" afterPath="$PROJECT_DIR$/template/module/latest.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/slideshow.tpl" afterPath="$PROJECT_DIR$/template/module/slideshow.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/special.tpl" afterPath="$PROJECT_DIR$/template/module/special.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/module/store.tpl" afterPath="$PROJECT_DIR$/template/module/store.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/category.tpl" afterPath="$PROJECT_DIR$/template/product/category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/product.tpl" afterPath="$PROJECT_DIR$/template/product/product.tpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_cart.svg" afterPath="$PROJECT_DIR$/image/ico_cart.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_compass.svg" afterPath="$PROJECT_DIR$/image/ico_compass.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_login.svg" afterPath="$PROJECT_DIR$/image/ico_login.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_thumbsup.svg" afterPath="$PROJECT_DIR$/image/ico_thumbsup.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_wallet.svg" afterPath="$PROJECT_DIR$/image/ico_wallet.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/additional_files/svg/ico_zoom-in.svg" afterPath="$PROJECT_DIR$/image/ico_zoom-in.svg" />
     </list>
     <ignored path="Juria.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,56 +108,48 @@
     <favorites_list name="Juria" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5626192">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/template/common/header.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="maps.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/maps.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="213">
-                  <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/header.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="top.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/top.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="sm.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/develop/styles/responsive/sm.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop/styles/layout/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xs.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop/styles/responsive/xs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="55" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,41 +164,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/develop/styles/layout/404.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/drop-down-menus.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/product-list" />
-        <option value="$PROJECT_DIR$/stylesheet/stylesheet.css" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/product-listi.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/product-list.css" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/product-list.scss" />
-        <option value="$PROJECT_DIR$/template/module/featured.tpl" />
-        <option value="$PROJECT_DIR$/template/information/contact.tpl" />
-        <option value="$PROJECT_DIR$/template/product/search.tpl" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/category-list.scss" />
-        <option value="$PROJECT_DIR$/stylesheet/main.css" />
-        <option value="$PROJECT_DIR$/template/module/slideshow.tpl" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/product_list.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/category-menu.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/prices.scss" />
-        <option value="$PROJECT_DIR$/template/common/search.tpl" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/menu.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/advantages.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/certificate.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/article.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/content.scss" />
+        <option value="$PROJECT_DIR$/template/account/register.tpl" />
+        <option value="$PROJECT_DIR$/template/account/return_form.tpl" />
+        <option value="$PROJECT_DIR$/template/account/return_info.tpl" />
+        <option value="$PROJECT_DIR$/template/account/return_list.tpl" />
+        <option value="$PROJECT_DIR$/template/account/reward.tpl" />
+        <option value="$PROJECT_DIR$/template/account/transaction.tpl" />
+        <option value="$PROJECT_DIR$/template/account/voucher.tpl" />
+        <option value="$PROJECT_DIR$/template/account/wishlist.tpl" />
+        <option value="$PROJECT_DIR$/template/common/success.tpl" />
+        <option value="$USER_HOME$/Desktop/Drums+/Blog.html" />
+        <option value="$PROJECT_DIR$/template/information/information.tpl" />
+        <option value="$PROJECT_DIR$/image/ico_zoom-in.svg" />
+        <option value="$PROJECT_DIR$/image/ico_cart.svg" />
+        <option value="$PROJECT_DIR$/image/ico_login.svg" />
+        <option value="$PROJECT_DIR$/additional_files/svg/ico_search.svg" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/search.scss" />
         <option value="$PROJECT_DIR$/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/develop/styles/layout/footer.scss" />
-        <option value="$PROJECT_DIR$/template/common/home.tpl" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/maps.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/logo.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/main.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/search.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/header.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/cart.scss" />
+        <option value="$PROJECT_DIR$/template/module/featured.tpl" />
+        <option value="$PROJECT_DIR$/template/module/bestseller.tpl" />
+        <option value="$PROJECT_DIR$/template/module/latest.tpl" />
+        <option value="$PROJECT_DIR$/template/module/special.tpl" />
+        <option value="$PROJECT_DIR$/template/module/store.tpl" />
+        <option value="$PROJECT_DIR$/template/product/category.tpl" />
+        <option value="$PROJECT_DIR$/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/template/common/cart.tpl" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/maps.scss" />
+        <option value="$PROJECT_DIR$/additional_files/SCC_block_header_line.txt" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/prices.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/advantages.scss" />
+        <option value="$PROJECT_DIR$/template/common/home.tpl" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/menu.scss" />
+        <option value="$PROJECT_DIR$/template/module/slideshow.tpl" />
+        <option value="$PROJECT_DIR$/develop/styles/responsive/xs.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/certificate.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/content.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/breadcrumb.scss" />
         <option value="$PROJECT_DIR$/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/pagination.scss" />
         <option value="$PROJECT_DIR$/develop/styles/layout/top.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/product_list.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/responsive/md.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/logo.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/article.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/cart.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/category-menu.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/main.css" />
+        <option value="$PROJECT_DIR$/stylesheet/main.css" />
+        <option value="$PROJECT_DIR$/develop/styles/main.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/header.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/responsive/sm.scss" />
       </list>
     </option>
   </component>
@@ -194,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,24 +305,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -274,49 +319,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheet" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="develop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +342,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juria" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="develop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsive" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,22 +399,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="additional_files" />
+              <option name="myItemId" value="develop" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="C:/PROJECTS/Adlers-work/flowers" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="ToolWindowTerminal.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\home\open2.dev\www\catalog\view\theme\Juria\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\home\open2.dev\www\catalog\view\theme\Juria\image" />
     </key>
@@ -434,27 +467,43 @@
       <workItem from="1468568325189" duration="649000" />
       <workItem from="1468570713876" duration="124000" />
       <workItem from="1468571038444" duration="9898000" />
-      <workItem from="1468588999560" duration="44132000" />
+      <workItem from="1468588999560" duration="44566000" />
+      <workItem from="1468908068006" duration="11676000" />
+      <workItem from="1468930447337" duration="11458000" />
+      <workItem from="1468997445108" duration="16882000" />
+      <workItem from="1469084746340" duration="6965000" />
+      <workItem from="1469096865764" duration="17362000" />
+      <workItem from="1469170838961" duration="18794000" />
+      <workItem from="1469430248476" duration="14293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54803000" />
+    <option name="totallyTimeSpent" value="152667000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15611587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.50214595" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715377" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32570806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -464,6 +513,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33259425" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14502165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715377" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -481,333 +550,365 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3322">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/module/featured.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product-list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/404.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/drop-down-menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product-list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product-list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product-list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/stylesheet__.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="870" column="17" selection-start-line="642" selection-start-column="0" selection-end-line="873" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/module/information.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/information/contact.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/module/featured.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/product/search.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="206" column="22" selection-start-line="206" selection-start-column="22" selection-end-line="206" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/slider.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/module/slideshow.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product_list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/category-menu.scss">
+    <entry file="file://$PROJECT_DIR$/image/ico_zoom-in.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="772" selection-start-line="2" selection-start-column="772" selection-end-line="2" selection-end-column="772" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/prices.scss">
+    <entry file="file://$PROJECT_DIR$/image/ico_cart.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="1" column="169" selection-start-line="1" selection-start-column="169" selection-end-line="1" selection-end-column="169" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/icon-search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/common/search.tpl">
+    <entry file="file://$PROJECT_DIR$/image/ico_login.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="50">
+          <caret line="2" column="3654" selection-start-line="2" selection-start-column="3654" selection-end-line="2" selection-end-column="3654" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/hd_peach.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/advantages.scss">
+    <entry file="file://$PROJECT_DIR$/image/ico_search.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/certificate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/article.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/logo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/icon-dropdown-toggle.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/common/cart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/maps.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/cart.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/common/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="205" column="15" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="2" column="1794" selection-start-line="2" selection-start-column="1794" selection-end-line="2" selection-end-column="1794" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/search.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="440">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ico_thumbsup.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="83" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ico_wallet.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="86" selection-start-line="0" selection-start-column="86" selection-end-line="0" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/icon-cart-dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ico_compass.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/common/cart.tpl__" />
+    <entry file="file://$PROJECT_DIR$/template/module/bestseller.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/banner.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/amazon_pay.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/amazon_login.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/affiliate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/latest.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/featured.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/special.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="169" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4968">
+          <caret line="343" column="61" selection-start-line="343" selection-start-column="61" selection-end-line="343" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/store.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/common/cart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/additional_files/SCC_block_header_line.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/maps.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/advantages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/prices.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/common/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="207" column="13" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/module/slideshow.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/certificate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/information/information.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/breadcrumb.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+        <state relative-caret-position="242">
+          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="365" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/product_list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="2" selection-end-line="188" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/header.scss">
+    <entry file="file://$PROJECT_DIR$/develop/styles/responsive/md.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="491">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/top.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/cart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/category-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2048">
+          <caret line="1756" column="24" selection-start-line="1756" selection-start-column="24" selection-end-line="1756" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="994" column="2" selection-start-line="994" selection-start-column="2" selection-end-line="994" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2261">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/responsive/xs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/responsive/sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 /* NEW STYLE */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #666;
     font-size: 14px;
@@ -30,6 +30,8 @@ h2 {
 }
 
 h3 {
+    margin-top: 45px;
+    text-transform: uppercase;
     font-size: 24px;
     line-height: 1.2;
 }
@@ -58,6 +60,12 @@ a:hover {
 a:focus,
 button:focus {
     outline: none;
+    color: #4b4842;
+}
+
+hr {
+    margin: 0;
+    border-top-color: #fadad0;
 }
 
 legend {
@@ -98,8 +106,13 @@ div.required .control-label:before {
     font-weight: bold;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .owl-carousel {
-    margin-bottom: 30px;
+    margin: 50px 0;
 }
 
 .owl-wrapper-outer {
@@ -128,6 +141,8 @@ div.required .control-label:before {
 @import "layout/advantages.scss";
 @import "layout/article.scss";
 @import "layout/certificate.scss";
+@import "layout/breadcrumb.scss";
+@import "layout/pagination.scss";
 
 @import "layout/404.scss";
 

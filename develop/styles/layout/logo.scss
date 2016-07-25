@@ -1,5 +1,22 @@
 /* logo */
 #logo {
-    margin: 0 0 10px 0;
-    padding-top: 20px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.logo{
+
+    a, span{
+        span{
+            position: relative;
+            top: -25px;
+            line-height: 1;
+            left: 105px;
+            width: 200px;
+            display: inline-block;
+            font-size: 14px;
+            line-height: 12px;
+            color: #fff;
+        }
+    }
 }

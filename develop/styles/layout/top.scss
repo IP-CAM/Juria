@@ -1,5 +1,6 @@
 /* top */
 #top {
+    background: url("../image/cart_line_bg.jpg") top center repeat-y;
     padding: 0;
     margin: 0;
     min-height: 60px;
@@ -13,12 +14,13 @@
     display: inline;
 }
 
-#top .list-inline li{
-    margin-top: 20px;
+#top .list-inline > li {
+    height: 19px;
+    margin-top: 15px;
     padding-right: 5px;
 }
 
-#top .list-inline li:nth-child(2)::after{
+#top .list-inline > li:nth-child(2)::after {
     position: relative;
     top: -2px;
     right: -5px;
@@ -30,40 +32,81 @@
     background: #fff;
 }
 
-#top .list-inline li >a {
+#top .list-inline > li > a {
+    display: inline-block;
+    font-family: 'Play', sans-serif;
+    font-size: 14px;
     color: #fff;
+    line-height: 1;
+    border-bottom: 1px solid;
 }
 
-a.menu-hamburger{
+#top .list-inline > li > a.menu-hamburger {
     background: url("../image/icon-dropdown-toggle.png") no-repeat center;
     display: block;
     width: 16px;
-    height: 16px;
+    height: 30px;
     color: #fff;
+    border-bottom: none;
 }
 
-.time-working{
-    padding-top: 15px;
+.dropdown-menu {
+    background: #fef7f2;
+    padding: 15px 0;
+    -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.175);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.175);
+    border: none;
+    border-radius: 0;
+
+    & > li {
+        padding: 5px 20px;
+
+        > a {
+            display: inline;
+            padding: 0;
+            font-family: "PT Sans", sans-serif;
+            font-size: 16px;
+            line-height: 1.2;
+            color: #4a4741;
+            border-bottom: 1px solid #4a4741;
+
+            &:hover {
+                background: transparent;
+                color: #4a4741;
+                border: none;
+            }
+        }
+    }
+}
+
+.time-working {
+    margin: 15px 0;
     font-family: 'Play', sans-serif;
     font-size: 14px;
     line-height: 1;
     color: #fff;
     color: #fff;
 
-    span{
+    span {
         display: block;
     }
 }
 
-.account{
-    background: url("../image/icon-account.png") no-repeat left center;
+.account {
+    background: url("../image/ico_login.svg") no-repeat left center;
+    -webkit-background-size: 30px;
+    background-size: 30px;
     display: block;
     text-align: right;
-    height: 10vh;
-    line-height: 10vh;
+    height: 30px;
+    margin: 15px auto;
+    //padding-left: 50px;
+    line-height: 30px;
     color: #fff;
-    
-    &:hover{
+
+    &:hover,
+    &:focus {
         color: #ccc;
     }
 }
@@ -122,4 +165,8 @@ a.menu-hamburger{
     line-height: 1;
     text-transform: uppercase;
     color: #fff;
+}
+
+#header-bottom {
+    background: url("../image/logo_line_bg.jpg") top center repeat-y;
 }

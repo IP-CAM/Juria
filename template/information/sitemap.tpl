@@ -7,16 +7,16 @@
   </ul>
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
-    <?php $class = 'col-sm-6'; ?>
-    <?php } elseif ($column_left || $column_right) { ?>
-    <?php $class = 'col-sm-9'; ?>
-    <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
+    <?php } elseif ($column_left || $column_right) { ?>
+    <?php $class = 'col-sm-18'; ?>
+    <?php } else { ?>
+    <?php $class = 'col-sm-24'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
           <ul>
             <?php foreach ($categories as $category_1) { ?>
             <li><a href="<?php echo $category_1['href']; ?>"><?php echo $category_1['name']; ?></a>
@@ -39,7 +39,7 @@
             <?php } ?>
           </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12">
           <ul>
             <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
             <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>

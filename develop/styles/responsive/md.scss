@@ -1,88 +1,29 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  header{
-    margin-top: 70px;
-  }
-
-  .header{
-    height: 164px;
-  }
-
-  .header-info{
-    position: static;
-  }
-
-  .header-info__phone{
-    margin: 20px -15px;
-  }
-
-    .header-info__phone >span {
-      display: block;
+    #top {
+        background-position: -915px center;
     }
 
-  aside{
-    display: none;
-  }
+    .header-phones > li {
+        font-size: 16px;
+    }
 
-  #sidebar {
-    overflow: hidden;
-    background: #323232;
-    height: 100vh;
-    margin: 0 -15px;
-    padding: 15px;
-    color: #fff;
-    z-index: 30;
-    position: fixed;
-    top: 60px;
-    left: 15px;
-    z-index: 99;
-    width: 279.5px !important;
-  }
+    .category-menu__img {
+        height: auto;
+        width: 100%;
+    }
 
-  .form-sidebar__title{
-    color: #fff;
-  }
+    .article__img {
+        height: auto;
+        margin-bottom: 15px;
+        width: 100%;
+    }
 
-  .sidebar__category-item,
-  .sidebar__around-clock,
-  .sidebar__phone {
-    display: none;
-  }
-
-  .slider{
-    -webkit-box-shadow: inset 0px 11px 11px -11px rgba(0,0,0,0.42);
-    -moz-box-shadow: inset 0px 11px 11px -11px rgba(0,0,0,0.42);
-    box-shadow: inset 0px 11px 11px -11px rgba(0,0,0,0.42);
-  }
-
-  .menu-gadgets__top-line{
-    -webkit-background-size: cover;
-    background-size: cover;
-  }
-  
-  .menu-domestic__item__top-line{
-    -webkit-background-size: contain;
-    background-size: contain;
-  }
-
-  .main-menu__item{
-    margin-right: 20px;
-  }
-
-  .menu-domestic__item{
-    display: table;
-  }
-
-  .menu-domestic__item__title{
-    height: 110px;
-    padding-top: 0;
-    display: table-cell;
-    vertical-align: middle;
-  }
+    .fancybox.certificate__img > img {
+        height: auto;
+        width: 100%;
+    }
 
 
-  #fixed,
-  .fixed{
-    width: 292.5px;
-  }
+
 }

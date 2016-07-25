@@ -1,0 +1,31 @@
+/* breadcrumb */
+
+.breadcrumb {
+    background: transparent;
+    margin-bottom: 0;
+    padding: 12px 15px;
+
+    > li {
+
+        > a {
+            font-family: 'Play', sans-serif;
+            font-size: 14px;
+            line-height: 12px;
+            color: #f09360;
+            border-bottom: 1px solid #f09360;
+        }
+
+        > span {
+            font-family: 'Play', sans-serif;
+            font-size: 14px;
+            line-height: 12px;
+            color: #f4746d;
+        }
+    }
+}
+
+.breadcrumb>li+li:before {
+    content: "\00bb";
+    padding: 0 4px 0 2px;
+    color: #f28367;
+}

@@ -1,7 +1,13 @@
 /* prices */
 
 .price{
-    margin-bottom: 20px;
+    margin-top: 20px;
+
+    &:first-child,
+    &:nth-child(2),
+    &:nth-child(3){
+        margin-top: 0;
+    }
 }
 
 .price__link{

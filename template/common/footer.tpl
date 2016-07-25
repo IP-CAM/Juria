@@ -5,15 +5,19 @@
             <div class="col-sm-8">
                 <div class="logo">
                     <a href="/">
-                        <img src="http://open2.dev/image/catalog/logo.png" title="<?php echo $name; ?>"
-                             alt="<?php echo $name; ?>" class="img-responsive"/>
+                        <img src="http://open2.dev/image/catalog/logo.png" title="Оптовый интернет-магазин
+                        женского белья Juria"
+                             alt="Оптовый интернет-магазин
+                        женского белья Juria" class="img-responsive"/>
+                        <span>Оптовый интернет-магазин
+                        женского белья Juria</span>
                     </a>
                 </div>
 
                 <p class="all-rights">Магазин женского белья Juria © 2010-2016. <br/>
                     Все права защищены</p>
 
-                <p class="copy">Разработка и продвижение <br />
+                <p class="copy">Разработка и продвижение <br/>
                     <a href="http://www.snegiri-media.ru/">Snegiri Media</a> - <a href="http://adlers.ua">Adlers</a>
                 </p>
             </div>
@@ -107,7 +111,7 @@
 
 
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         $(".fancybox").fancybox();
     });
 </script>

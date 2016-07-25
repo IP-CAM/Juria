@@ -12,15 +12,15 @@
 }
 
 .category-menu__item:hover {
-    opacity: .7;
+
+    .category-menu__img {
+        opacity: .7;
+        opacity: .7;
+    }
 }
 
 .category-menu__link {
     display: block;
-}
-
-.category-menu__img {
-
 }
 
 .category-menu__label {
@@ -29,7 +29,7 @@
     bottom: 40px;
     display: block;
     padding: 15px 15px 15px 20px;
-    font-family: "Open Sans", sans-serif;
+
     font-size: 14px;
     line-height: 1.2;
     color: #3e372b;
