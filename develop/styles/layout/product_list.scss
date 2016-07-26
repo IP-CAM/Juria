@@ -170,23 +170,11 @@ h2.price {
 }
 
 .b-prod .button-group button:hover {
-    color: #444;
-    background-color: #ddd;
+    color: #fff;
+    background-color: #4b4842;
     text-decoration: none;
     cursor: pointer;
 }
-
-//@media (max-width: 1200px) {
-//    .b-prod .button-group button, .b-prod .button-group button + button {
-//        width: 33.33%;
-//    }
-//}
-//
-//@media (max-width: 767px) {
-//    .b-prod .button-group button, .b-prod .button-group button + button {
-//        width: 33.33%;
-//    }
-//}
 
 .thumbnails {
     overflow: auto;

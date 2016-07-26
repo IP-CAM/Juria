@@ -1,11 +1,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
-    header{
+    header {
         margin-bottom: 50px;
     }
 
-
-    .header-phones > li{
+    .header-phones > li {
         line-height: 30px;
     }
 
@@ -14,12 +13,24 @@
         background-position: -915px center;
     }
 
+    #top .container {
+        padding: 0;
+    }
+
+    .list-inline {
+        margin-left: 10px;
+    }
+
+    #menu #category {
+        padding-left: 0;
+    }
+
     #menu {
         background: #F28368;
         border-radius: 0;
     }
 
-    #menu .dropdown:hover .dropdown-menu{
+    #menu .dropdown:hover .dropdown-menu {
         display: none;
     }
 

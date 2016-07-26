@@ -10,7 +10,9 @@
 }
 
 #cart > a {
-    background: url("../image/icon-cart-dark.png") no-repeat 35px center #fff;
+    background: url("../image/ico_cart--darck.svg") no-repeat 35px center #fff;
+    -webkit-background-size: 20px;
+    background-size: 20px;
     display: block;
     font-size: 12px;
     line-height: 18px;
@@ -20,6 +22,10 @@
     border-radius: 0;
     border: none;
     text-align: left;
+
+    &:focus{
+        text-decoration: none;
+    }
 
     .count {
         background: #f28666;
@@ -36,7 +42,6 @@
 }
 
 #cart-total {
-    font-family: 'Play', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     color: #3e372b;
