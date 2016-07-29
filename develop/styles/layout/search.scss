@@ -7,12 +7,14 @@
     margin-top: -12px;
     width: 24px;
 }
+
 #search .input-lg {
     display: none;
     height: 40px;
     line-height: 20px;
     padding: 0 10px;
 }
+
 #search .btn-lg {
     width: 24px;
     height: 24px;
@@ -25,7 +27,100 @@
     padding: 10px 0;
     text-shadow: none;
 
-    &:focus{
+    &:focus {
         outline: none;
     }
 }
+
+/* search-result */
+
+.search-result {
+
+    h2{
+        margin-bottom: 35px;
+    }
+
+    input#button-search {
+        background-color: #4a4741;
+        border-color: #4a4741;
+        width: 100%;
+        padding: 7px 12px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 26px;
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+        font-size: 16px !important;
+    }
+
+    select.form-control{
+        font-weight: normal;
+    }
+
+    .radio label, .checkbox label {
+        min-height: 15px;
+    }
+
+    .checkbox {
+        .checkbox-inline {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            padding-left: 25px;
+            margin-right: 15px;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        input[type=checkbox] {
+            display: none;
+        }
+
+        .checkbox-inline:before {
+            content: "";
+            display: inline-block;
+
+            width: 15px;
+            height: 15px;
+            border: 1px solid #f28367;
+
+            margin-right: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+        }
+
+        input[type=checkbox]:checked + .checkbox-inline:before {
+            background: url("../image/checked.jpg") no-repeat center;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+            font-size: 15px;
+            color: #f3f3f3;
+            text-align: center;
+            line-height: 15px;
+        }
+    }
+}
+
+.search__not-found {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #f28367;
+}
+
+.search__question {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #4a4741;
+}
+
+.search__steps {
+    padding-left: 15px;
+}
+
+

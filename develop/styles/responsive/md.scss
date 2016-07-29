@@ -24,6 +24,25 @@
         width: 100%;
     }
 
+    .b-prod--cat .button-group .more-info {
+        margin-bottom: 20px;
+    }
 
+    .b-prod .button-group button,
+    .b-prod--cat .button-group .more-info {
+        width: 100%;
+    }
 
+    .b-prod__price span {
+        display: block;
+        line-height: 1;
+    }
+
+    //#search{
+    //    display: none;
+    //}
+    //
+    //.nav.navbar-nav{
+    //    padding-left: 0;
+    //}
 }

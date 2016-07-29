@@ -2,6 +2,7 @@
 
 #filter {
     overflow: hidden;
+    margin-bottom: 45px;
     box-shadow: none;
     border: none;
 }
@@ -18,12 +19,34 @@
 
     .panel-heading {
         background: #fef7f2;
-        padding: 20px;
+        padding: 10px 10px 10px 20px;
         font-size: 16px;
         line-height: 1.2;
         font-weight: bold;
         text-transform: uppercase;
         color: #4a4741;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        &::before{
+            position: absolute;
+            top: 10px;
+            left: 22px;
+            content: '+';
+            width: 10px;
+            display: block;
+
+        }
+    }
+
+    .panel-heading.open{
+        &::before{
+            content: '-';
+            top: 9px;
+            left: 24px;
+        }
     }
 
     .list-group {
@@ -33,7 +56,7 @@
 
     .list-group-item {
         background-color: transparent;
-        padding: 10px 0;
+        padding: 10px 0 0;
         font-size: 14px;
         line-height: 1.2;
         font-weight: bold;
@@ -49,27 +72,28 @@
         input[type="radio"] + label {
             font-size: 14px;
             line-height: 1.2;
-            text-transform: uppercase;
+            text-transform: none;
             color: #444;
             cursor: pointer;
         }
         input[type="checkbox"] + label::before,
         input[type="radio"] + label::before {
+            position: relative;
+            top: 3px;
             content: "";
             display: inline-block;
             margin: 0 5px 0 0;
-            width: 13px;
-            height: 13px;
+            width: 15px;
+            height: 15px;
             border: 1px solid #f28367;
         }
-
         input[type="checkbox"] + label::before {
 
         }
 
         input[type="checkbox"]:checked + label::before {
-            width: 13px;
-            height: 13px;
+            width: 15px;
+            height: 15px;
             background: url("../image/checked.jpg") no-repeat center;
 
         }
@@ -78,6 +102,47 @@
 
     .panel-footer {
         background: #fef7f2;
+        border: none;
+    }
+}
+
+#button-filter {
+    float: left;
+    width: auto;
+    margin: 10px 30px 10px 0;
+    padding: 0 16px;
+    border: none;
+    border-radius: 5px;
+    display: inline;
+    background: #4a4741;
+    height: 38px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+#button-reset {
+    display: initial;
+    font-size: 16px;
+    padding: 0;
+    line-height: 1;
+    color: #4a4741;
+    text-decoration: underline;
+    margin: 21px 0;
+    border-bottom: 1px solid #4a4741;
+    background: transparent;
+    border: none;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:active{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
 }
 
@@ -86,4 +151,19 @@
     border: none;
 }
 
+.filter__instruction {
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #4a4741;
+}
 
+.radio label,
+.checkbox label {
+    padding-left: 0;
+}
+
+.radio, .checkbox {
+    margin-top: 0;
+    margin-bottom: 15px;
+}

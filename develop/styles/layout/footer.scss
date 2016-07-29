@@ -60,12 +60,17 @@ footer h5 {
     list-style: none;
 
     & > li {
-        & > a {
+        & > a,
+        & > span{
             font-size: 14px;
             line-height: 1;
             text-transform: uppercase;
             text-decoration: none;
             color: #f4746d;
+        }
+
+        > span{
+            color: #fff;
         }
     }
 }

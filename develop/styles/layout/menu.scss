@@ -2,10 +2,12 @@
 #menu {
     background: url("../image/hd_peach.jpg") center;
     min-height: 40px;
+    border: none;
     border-radius: 0;
 }
 
-#menu .nav > li > a {
+#menu .nav > li > a,
+#menu .nav > li > span {
     color: #fff;
     text-shadow: none;
     padding: 30px 15px;
@@ -13,8 +15,13 @@
     background-color: transparent;
 }
 
+#menu .nav > li > span {
+    display: block;
+    cursor: default;
+}
+
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #menu .dropdown-menu {
@@ -132,10 +139,14 @@
     padding: 0;
 }
 
-.navbar{
+.navbar {
     border-radius: 0;
 }
 
-.nav.navbar-nav{
+.nav.navbar-nav {
     padding-right: 50px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
 }

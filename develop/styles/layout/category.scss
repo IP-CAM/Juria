@@ -1,0 +1,49 @@
+/* category */
+
+.sub-category__lst {
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+
+.sub-category__item {
+    background: url("../image/hd_peach.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 5px;
+
+    &:hover {
+        > a {
+            background: url("../image/icon-category__item.png") no-repeat bottom 15px right 15px #5c5954;
+            border-radius: 5px;
+        }
+    }
+
+    > a {
+        background: url("../image/icon-category__item.png") no-repeat bottom 15px right 15px;
+        display: block;
+        overflow: hidden;
+        min-height: 70px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #fefefe;
+        text-transform: uppercase;
+    }
+}
+
+.category-desc__title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #4b4842;
+    text-transform: uppercase;
+}
+
+.category-desc{
+    column-count: 2;
+    -moz-column-count: 2;
+}

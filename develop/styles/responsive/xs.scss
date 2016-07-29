@@ -155,6 +155,12 @@
         column-gap: 30px;
     }
 
+    .category-desc{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
     .article__img {
         display: block;
         margin: 0 auto;
@@ -194,7 +200,9 @@
     }
 
     .footer__category-lst > li > a,
-    .footer__menu-lst > li > a {
+    .footer__menu-lst > li > a,
+    .footer__category-lst > li > span,
+    .footer__menu-lst > li > span {
         display: inline-block;
         line-height: 30px;
     }

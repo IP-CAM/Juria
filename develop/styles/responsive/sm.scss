@@ -137,6 +137,22 @@
         margin-right: 0;
     }
 
+    .b-prod--cat .button-group .more-info {
+        margin-bottom: 20px;
+    }
+
+    .b-prod .button-group button,
+    .b-prod--cat .button-group .more-info {
+        width: 100%;
+    }
+
+    .b-prod__price span {
+        display: block;
+        line-height: 1;
+    }
+
+
+
     /* footer */
     .footer__menu-lst {
         column-count: 1;
